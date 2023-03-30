@@ -4,12 +4,13 @@ int main()
 {
 int NUM=4;
 int markah[NUM];
-std::cout<<"Sila masukkan markah anda "<<std::endl;
+
 /*int salary[NUM] = {2000, 3400, 1900, 2500, 3300, 1238, 3200, 2700,
 3600, 4500}; */
 
 for(int i=0;i<NUM;i++)
 {
+    std::cout<<"Sila masukkan markah anda "<<std::endl;
     std::cin>>markah[i];
 }
 
