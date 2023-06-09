@@ -80,7 +80,7 @@ std::cout<<std::endl;
 return 0;
 }*/
 
-/*int main() //4a iv
+int main() //4a iv
 {
   double staff[5][4];
   const double kwsp=0.1;
@@ -112,7 +112,7 @@ return 0;
     std::cout<<std::endl;
     }
     return 0;
-} */
+} 
 
 /*using namespace std; //4a iii 1
 int main()
@@ -138,7 +138,7 @@ cout<<endl;
 }
 }*/
 
-int main(){
+/*int main(){
     int OT[10][3];
     double average;
     double total=0;
@@ -167,7 +167,7 @@ int main(){
     }
     std::cout<<"Average OT payment is : RM "<<average<<std::endl;
     return 0;
-} 
+} */
 
 /*#define ID 10
 using namespace std;
