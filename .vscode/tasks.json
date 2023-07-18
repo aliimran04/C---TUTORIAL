@@ -244,7 +244,10 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
         },
         {
@@ -349,10 +352,7 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "group": "build",
             "detail": "compiler: C:\\msys64\\mingw64\\bin\\clang++.exe"
         }
     ],
